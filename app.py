@@ -97,7 +97,7 @@ def remove_item(id):
         return jsonify({"message": f"Item id '{id}' cannot be found in the system."}),404
     else:
         items = [item for item in items if item["id"] != id]
-        return jsonify({"msg": f"Successfully deleted item id '{id}'."}),204
+        return jsonify({"message": f"Successfully deleted item id '{id}'."}),204
 
 #Run the application on port 5555
 if __name__ == "__main__":
