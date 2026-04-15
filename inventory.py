@@ -100,3 +100,27 @@ class Inventory:
 
 		except Exception as e:
 			print(f"Error connecting to the server:{e}")
+
+#Test Cases
+# Test cases
+""" 
+#instantiate the inventory object
+inventory = Inventory()
+
+#Add a new item and view the inventory
+inventory.add_new_item()
+inventory.view_inventory_details()
+
+#Update item details and view the inventory
+inventory.price_stock_update()
+inventory.view_inventory_details()
+
+#Delete an item and view the inventory
+inventory.delete_item()
+inventory.view_inventory_details()
+
+#View product details from an external API
+inventory.get_remote_item() 
+
+-> Upgrade these tests to Pytest or Postman collection (later)
+"""
