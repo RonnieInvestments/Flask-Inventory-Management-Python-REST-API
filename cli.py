@@ -35,7 +35,7 @@ def manage_inventory():
 
         #DELETE operation
         elif choice == "4":
-            inventory.delete_item
+            inventory.delete_item()
 
         #EXTERNAL API lookup
         elif choice == "5":
