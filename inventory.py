@@ -86,7 +86,7 @@ class Inventory:
 
 	#EXTERNAL API: Retrieve produdct details from Open Food Facts API
 	#The user provides a barcode, which is used to query the API
-	def get_remote_item():
+	def get_remote_item(self):
 		
 		#Collect product barcode from user
 		product_code = input("Enter the product code to search: ")
